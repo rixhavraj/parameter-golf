@@ -1,0 +1,31 @@
+EXPERIMENT RESULTS
+==================
+
+EXP_small
+step:19000 val_loss:2.6525 val_bpb:1.1774 time:12496759ms
+step:20000 val_loss:2.6508 val_bpb:1.1766 time:13155280ms
+step:21000 val_loss:2.6501 val_bpb:1.1763 time:13813793ms
+step:22000 val_loss:2.6291 val_bpb:1.1670 time:14470806ms
+Model size:
+1.1M
+
+EXP_medium
+step:16000 val_loss:2.4725 val_bpb:1.0975 time:12143528ms
+step:17000 val_loss:2.4710 val_bpb:1.0968 time:12902737ms
+step:18000 val_loss:2.4690 val_bpb:1.0959 time:13661666ms
+step:19000 val_loss:2.4459 val_bpb:1.0857 time:14421143ms
+Model size:
+525K
+
+EXP_large
+step:9000 val_loss:2.3722 val_bpb:1.0530 time:11384768ms
+
+EXP_deep_stable
+step:20000 val_loss:2.2451 val_bpb:0.9965
+Status: COMPLETED (Sub-1.0 Barrier Broken!)
+Model Size: 1.13MB
+step:10000 val_loss:2.3684 val_bpb:1.0513 time:12649595ms
+step:11000 val_loss:2.3632 val_bpb:1.0490 time:13914288ms
+step:12000 val_loss:2.3438 val_bpb:1.0404 time:15179099ms
+Model size:
+825K
