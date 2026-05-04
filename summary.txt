@@ -22,10 +22,20 @@ step:9000 val_loss:2.3722 val_bpb:1.0530 time:11384768ms
 
 EXP_deep_stable
 step:20000 val_loss:2.2451 val_bpb:0.9965
-Status: COMPLETED (Sub-1.0 Barrier Broken!)
+Status: COMPLETED
 Model Size: 1.13MB
-step:10000 val_loss:2.3684 val_bpb:1.0513 time:12649595ms
-step:11000 val_loss:2.3632 val_bpb:1.0490 time:13914288ms
-step:12000 val_loss:2.3438 val_bpb:1.0404 time:15179099ms
-Model size:
-825K
+
+EXP_wide_aggressive
+step:19000 val_loss:2.1748 val_bpb:0.9653
+Status: COMPLETED
+Model Size: 1.13MB
+
+EXP_balanced_peak
+step:16000 val_loss:2.1687 val_bpb:0.9627
+Status: COMPLETED (🏆 OVERALL CHAMPION)
+Model Size: 1.13MB
+
+========================================
+36-HOUR OPTIMIZATION SUITE: FINISHED
+Best BPB: 0.9627 (Balanced Peak)
+========================================
